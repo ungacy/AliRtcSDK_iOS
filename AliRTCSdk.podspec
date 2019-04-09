@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   }
 
   s.subspec 'AliRTCSdk' do |rtcsdk|
-    rtcsdk.vendored_frameworks = 'AliRTCSdk.framework','UTDID.framework'
+    rtcsdk.vendored_frameworks = 'AliRTCSdk.framework'
     # rtcsdk.resource = 'AlivcLibFaceResource.bundle'
     rtcsdk.frameworks = 'AudioToolbox','VideoToolbox','CoreVideo','CoreMedia','OpenGLES','AVFoundation','UIKit','CoreTelephony','SystemConfiguration'
     rtcsdk.libraries = 'c++','resolv'
